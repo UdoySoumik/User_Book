@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE0A6B301F4836600023AB71 /* GenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A6B2F1F4836600023AB71 /* GenderViewController.m */; };
+		CE0A6B331F483A440023AB71 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A6B321F483A440023AB71 /* ProfileViewController.m */; };
 		CE6495BC1F481399008DFF48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6495BB1F481399008DFF48 /* main.m */; };
 		CE6495BF1F481399008DFF48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6495BE1F481399008DFF48 /* AppDelegate.m */; };
-		CE6495C21F481399008DFF48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6495C11F481399008DFF48 /* ViewController.m */; };
 		CE6495C51F481399008DFF48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6495C31F481399008DFF48 /* Main.storyboard */; };
 		CE6495C81F481399008DFF48 /* User_Profile_Book.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE6495C61F481399008DFF48 /* User_Profile_Book.xcdatamodeld */; };
 		CE6495CA1F481399008DFF48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6495C91F481399008DFF48 /* Assets.xcassets */; };
 		CE6495CD1F481399008DFF48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6495CB1F481399008DFF48 /* LaunchScreen.storyboard */; };
 		CE6495D81F48139A008DFF48 /* User_Profile_BookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6495D71F48139A008DFF48 /* User_Profile_BookTests.m */; };
 		CE6495E31F48139A008DFF48 /* User_Profile_BookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6495E21F48139A008DFF48 /* User_Profile_BookUITests.m */; };
+		CE6495F21F4815E9008DFF48 /* PersonViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6495F11F4815E9008DFF48 /* PersonViewCell.m */; };
+		CE6495F51F481729008DFF48 /* listViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6495F41F481729008DFF48 /* listViewController.m */; };
+		CEDBCB671F4833CE0032B977 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDBCB661F4833CE0032B977 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,12 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE0A6B2E1F4836600023AB71 /* GenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenderViewController.h; sourceTree = "<group>"; };
+		CE0A6B2F1F4836600023AB71 /* GenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenderViewController.m; sourceTree = "<group>"; };
+		CE0A6B311F483A440023AB71 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		CE0A6B321F483A440023AB71 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		CE6495B71F481399008DFF48 /* User Profile Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "User Profile Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6495BB1F481399008DFF48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE6495BD1F481399008DFF48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE6495BE1F481399008DFF48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CE6495C01F481399008DFF48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE6495C11F481399008DFF48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CE6495C41F481399008DFF48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE6495C71F481399008DFF48 /* User_Profile_Book.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = User_Profile_Book.xcdatamodel; sourceTree = "<group>"; };
 		CE6495C91F481399008DFF48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +59,11 @@
 		CE6495DE1F48139A008DFF48 /* User Profile BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "User Profile BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6495E21F48139A008DFF48 /* User_Profile_BookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User_Profile_BookUITests.m; sourceTree = "<group>"; };
 		CE6495E41F48139A008DFF48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6495F01F4815E9008DFF48 /* PersonViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewCell.h; sourceTree = "<group>"; };
+		CE6495F11F4815E9008DFF48 /* PersonViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewCell.m; sourceTree = "<group>"; };
+		CE6495F31F481729008DFF48 /* listViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = listViewController.h; sourceTree = "<group>"; };
+		CE6495F41F481729008DFF48 /* listViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listViewController.m; sourceTree = "<group>"; };
+		CEDBCB661F4833CE0032B977 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDBCB671F4833CE0032B977 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +99,7 @@
 				CE6495D61F48139A008DFF48 /* User Profile BookTests */,
 				CE6495E11F48139A008DFF48 /* User Profile BookUITests */,
 				CE6495B81F481399008DFF48 /* Products */,
+				CEDBCB651F4833CE0032B977 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,14 +118,20 @@
 			children = (
 				CE6495BD1F481399008DFF48 /* AppDelegate.h */,
 				CE6495BE1F481399008DFF48 /* AppDelegate.m */,
-				CE6495C01F481399008DFF48 /* ViewController.h */,
-				CE6495C11F481399008DFF48 /* ViewController.m */,
 				CE6495C31F481399008DFF48 /* Main.storyboard */,
 				CE6495C91F481399008DFF48 /* Assets.xcassets */,
 				CE6495CB1F481399008DFF48 /* LaunchScreen.storyboard */,
 				CE6495CE1F481399008DFF48 /* Info.plist */,
 				CE6495C61F481399008DFF48 /* User_Profile_Book.xcdatamodeld */,
 				CE6495BA1F481399008DFF48 /* Supporting Files */,
+				CE6495F01F4815E9008DFF48 /* PersonViewCell.h */,
+				CE6495F11F4815E9008DFF48 /* PersonViewCell.m */,
+				CE6495F31F481729008DFF48 /* listViewController.h */,
+				CE6495F41F481729008DFF48 /* listViewController.m */,
+				CE0A6B2E1F4836600023AB71 /* GenderViewController.h */,
+				CE0A6B2F1F4836600023AB71 /* GenderViewController.m */,
+				CE0A6B311F483A440023AB71 /* ProfileViewController.h */,
+				CE0A6B321F483A440023AB71 /* ProfileViewController.m */,
 			);
 			path = "User Profile Book";
 			sourceTree = "<group>";
@@ -141,6 +160,14 @@
 				CE6495E41F48139A008DFF48 /* Info.plist */,
 			);
 			path = "User Profile BookUITests";
+			sourceTree = "<group>";
+		};
+		CEDBCB651F4833CE0032B977 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDBCB661F4833CE0032B977 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,10 +303,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6495C21F481399008DFF48 /* ViewController.m in Sources */,
+				CE6495F51F481729008DFF48 /* listViewController.m in Sources */,
 				CE6495BF1F481399008DFF48 /* AppDelegate.m in Sources */,
+				CE6495F21F4815E9008DFF48 /* PersonViewCell.m in Sources */,
 				CE6495BC1F481399008DFF48 /* main.m in Sources */,
+				CE0A6B331F483A440023AB71 /* ProfileViewController.m in Sources */,
 				CE6495C81F481399008DFF48 /* User_Profile_Book.xcdatamodeld in Sources */,
+				CE0A6B301F4836600023AB71 /* GenderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +541,7 @@
 				CE6495E91F48139A008DFF48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE6495EA1F48139A008DFF48 /* Build configuration list for PBXNativeTarget "User Profile BookTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +550,7 @@
 				CE6495EC1F48139A008DFF48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE6495ED1F48139A008DFF48 /* Build configuration list for PBXNativeTarget "User Profile BookUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +559,7 @@
 				CE6495EF1F48139A008DFF48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

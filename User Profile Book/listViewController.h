@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  listViewController.h
 //  User Profile Book
 //
 //  Created by Khandker Mahmudur Rahman on 8/19/17.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface listViewController : UITableViewController
+@property NSArray *people;
 
 @end
-
