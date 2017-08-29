@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE0A6B301F4836600023AB71 /* GenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A6B2F1F4836600023AB71 /* GenderViewController.m */; };
 		CE0A6B331F483A440023AB71 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE0A6B321F483A440023AB71 /* ProfileViewController.m */; };
 		CE6495BC1F481399008DFF48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6495BB1F481399008DFF48 /* main.m */; };
 		CE6495BF1F481399008DFF48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6495BE1F481399008DFF48 /* AppDelegate.m */; };
@@ -40,8 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE0A6B2E1F4836600023AB71 /* GenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenderViewController.h; sourceTree = "<group>"; };
-		CE0A6B2F1F4836600023AB71 /* GenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenderViewController.m; sourceTree = "<group>"; };
 		CE0A6B311F483A440023AB71 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		CE0A6B321F483A440023AB71 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		CE6495B71F481399008DFF48 /* User Profile Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "User Profile Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,6 +117,7 @@
 				CE6495BE1F481399008DFF48 /* AppDelegate.m */,
 				CE6495C31F481399008DFF48 /* Main.storyboard */,
 				CE6495C91F481399008DFF48 /* Assets.xcassets */,
+				CE6495BB1F481399008DFF48 /* main.m */,
 				CE6495CB1F481399008DFF48 /* LaunchScreen.storyboard */,
 				CE6495CE1F481399008DFF48 /* Info.plist */,
 				CE6495C61F481399008DFF48 /* User_Profile_Book.xcdatamodeld */,
@@ -128,8 +126,6 @@
 				CE6495F11F4815E9008DFF48 /* PersonViewCell.m */,
 				CE6495F31F481729008DFF48 /* listViewController.h */,
 				CE6495F41F481729008DFF48 /* listViewController.m */,
-				CE0A6B2E1F4836600023AB71 /* GenderViewController.h */,
-				CE0A6B2F1F4836600023AB71 /* GenderViewController.m */,
 				CE0A6B311F483A440023AB71 /* ProfileViewController.h */,
 				CE0A6B321F483A440023AB71 /* ProfileViewController.m */,
 			);
@@ -139,7 +135,6 @@
 		CE6495BA1F481399008DFF48 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				CE6495BB1F481399008DFF48 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -237,6 +232,7 @@
 				TargetAttributes = {
 					CE6495B61F481399008DFF48 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = G62G4W7UGG;
 						ProvisioningStyle = Automatic;
 					};
 					CE6495D21F48139A008DFF48 = {
@@ -309,7 +305,6 @@
 				CE6495BC1F481399008DFF48 /* main.m in Sources */,
 				CE0A6B331F483A440023AB71 /* ProfileViewController.m in Sources */,
 				CE6495C81F481399008DFF48 /* User_Profile_Book.xcdatamodeld in Sources */,
-				CE0A6B301F4836600023AB71 /* GenderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +453,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G62G4W7UGG;
 				INFOPLIST_FILE = "User Profile Book/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "brotecs.User-Profile-Book";
@@ -469,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G62G4W7UGG;
 				INFOPLIST_FILE = "User Profile Book/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "brotecs.User-Profile-Book";

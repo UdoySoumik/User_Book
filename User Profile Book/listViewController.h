@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CoreData/CoreData.h"
 
-@interface listViewController : UITableViewController
-@property NSArray *people;
-
+@interface listViewController : UITableViewController <UISearchResultsUpdating, UISearchBarDelegate>
+@property NSMutableArray *people;
+@property NSManagedObject *selectedPerson;
+@property (strong, nonatomic) UISearchController *searchController;
 @end
